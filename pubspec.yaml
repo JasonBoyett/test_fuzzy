@@ -1,0 +1,16 @@
+name: test_fuzzy
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.7.0
+
+# Add regular dependencies here.
+dependencies:
+  fuzzywuzzy: ^1.2.0
+  fuzzy_bolt: ^1.1.5
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
